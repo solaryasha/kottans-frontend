@@ -12,7 +12,8 @@
  * git pull
  * git push
  * git log with some flags (--oneline --graph --all is the best)
- P.S. Actually, git pull = git fetch +git merge .
+
+P.S. Actually, git pull = git fetch +git merge .
  
 6. [x] Send a pull-request to Kottans/mock-repo
 7. [x] Viewed some extra materials 
