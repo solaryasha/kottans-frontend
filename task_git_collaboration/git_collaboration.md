@@ -6,7 +6,7 @@
 
 The contributing part was very insightful. Also, for the record, git rebase command is so powerful.
 You can edit, squash,remove commits with only one command.
-And I finished basic part of the frontend course, hell yeah!!
+And I finished the basic part of the frontend course, hell yeah!!
 
 Screenshots:
 ![version_control](../GitBasic/udacityVCS.png)
