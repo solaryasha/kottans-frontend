@@ -9,4 +9,4 @@ And I finished basic part of the frontend course, hell yeah!!
 
 Screenshots:
 ![version_control](../GitBasic/udacityVSC.png)
-![git_collaboration](githubCollaboration.png)
+![git_collaboration](githubCollaboration.PNG)
