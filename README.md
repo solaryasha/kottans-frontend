@@ -8,5 +8,11 @@ Online Front-end course with peer-to-peer learning
 1. [x] [Linux CLI, and HTTP](task_linux_cli/linux_cli.md)
 2. [x] [VCS (hello gitty), GitHub and Collaboration](task_git_collaboration/git_collaboration.md)
 ## Front-End Basics
+<<<<<<< HEAD
 3. [x] [Intro to HTML & CSS](task_html_css_intro/html_css_intro.md)
 4. [x] [Responsive Web Design](task_responsive_web_design/responsive_web_design.md)
+||||||| merged common ancestors
+3. [x] [Intro to HTML & CSS](task_html_css_intro/html_css_intro.md)s
+=======
+3. [x] [Intro to HTML & CSS](task_html_css_intro/html_css_intro.md)
+>>>>>>> 44fdad502288c690c656105e5c2d7a89cf0459d4
