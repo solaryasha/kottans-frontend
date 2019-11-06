@@ -1,0 +1,140 @@
+body {
+    font-size: 16px;
+    font-family: "Helvetica", "Arial", sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+.navigation {
+    display: block;
+    height: auto;
+    /* height: 100%; */
+    /* border: 1px solid red; */
+}
+
+.nav_menu {
+    margin-right: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.menu_card {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    margin-left: 10px;
+    border: 1px solid blue;
+}
+.menu_card a {
+    text-decoration: none;
+    /* padding: 10px; */
+    color: black;
+}
+.menu_card img {
+    width: 32px;
+    height: 32px;
+}
+.avatar img {
+    width: 32px;
+    height: 32px;
+}
+.iconsBox {
+    display: none;
+    position: absolute;
+    width: 300px;
+    top: 90px;
+    right: 50px;
+
+    background: #fff;
+    border: 1px solid #ccc;
+    border-color: rgba(0,0,0,.2);
+    box-shadow: 0 2px 10px rgba(0,0,0,.2);
+}
+
+.visibleIcons,
+.hiddenIcons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 0px;
+    /* border: 1px solid yellow; */
+
+}
+
+.popupItem,
+.hidden {
+    display: flex;
+    justify-content: center; 
+    width: 80px;
+    padding: 5px 5px 0 5px;
+
+    /* border: 1px solid blue; */
+}
+.popupItem a {
+    /* text-decoration: none; */
+    /* margin-top: 5px; */
+    text-align: center;
+}
+.popupItem img,
+.hiddenIcons img {
+    display: block;
+    width: 48px;
+    height: 48px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.menu-icon {
+    background-image: url(../img/apps.jpg);
+    background-size: cover;
+    height: 24px;
+    width: 24px;
+    cursor: pointer;
+}
+.bell img{
+    width: 24px;
+    height: 24px;
+}
+figcaption {
+    margin-top: 5px;
+    margin-left: -5px;
+    /* border: 1px solid blue; */
+}
+.menu-btn,
+.moreApps {
+    position: absolute;
+    -webkit-appearance: none;
+    appearance: none;
+}
+.menu-btn:checked ~ .iconsBox {
+    display: block;
+}
+.menuMoreButton {
+    display: block;
+    width: 298px;
+    text-align: center;
+    background-color:#f5f5f5;
+    line-height: 35px;
+}
+.dividingLine {
+    color: #eee;
+    width: 260px;
+    margin-left: 20px;
+    opacity: 0.5;
+}
+.dividingLine,
+.hiddenIcons {
+    display: none;
+}
+.popupItem:hover {
+    outline: 1px solid #a1a1a1;
+}
+.moreApps:checked ~ .menuMoreButton {
+    display: none;
+}
+.moreApps:checked ~ .dividingLine {
+    display: inline-block;
+}
+.moreApps:checked ~ .hiddenIcons {
+    display: flex;
+}
