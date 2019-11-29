@@ -11,3 +11,6 @@ Online Front-end course with peer-to-peer learning
 3. [x] [Intro to HTML & CSS](task_html_css_intro/html_css_intro.md)
 4. [x] [Responsive Web Design](task_responsive_web_design/responsive_web_design.md)
 
+5.[x] [HTML & CSS Practice](task_html_css_popup/html-css.popup.md)
+
+6.[x] [JavaScript Basics](task_javascript_basics/javascript_basics.md)
